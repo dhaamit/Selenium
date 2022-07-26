@@ -1,0 +1,37 @@
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class _02OnlineRetailSite {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\Drivers\\chromedriver.exe");
+		WebDriver driver =new ChromeDriver();
+		String[] itemsToShop = {"Brocolli", "Carrot", "Cucumber", "Brinjal","Banana","Apple"};
+		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/"); //URL in the browser
+		Thread.sleep(5000);
+		List<WebElement> allProducts = driver.findElements(By.cssSelector("h4.product-name"));
+		int j=0;
+		List<String> shoppingItems = Arrays.asList(itemsToShop);
+		for (int i=0; i<allProducts.size(); i++)
+		{
+			String productName = allProducts.get(i).getText().split("-")[0].trim();
+			if(shoppingItems.contains(productName))
+			{
+				j++;
+				driver.findElements(By.xpath("//div[@class='product-action']/button")).get(i).click();
+				if(j==itemsToShop.length)
+				{
+					break;
+				}
+			}
+		}
+	}
+
+}

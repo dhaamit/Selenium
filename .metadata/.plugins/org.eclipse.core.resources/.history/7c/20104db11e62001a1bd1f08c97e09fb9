@@ -1,0 +1,14 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class HandleCalendarDateGeneric {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("driver.chrome.webdriver", "C:\\Softwares\\Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver ();
+		driver.get("https://www.path2usa.com/travel-companions/");
+		
+	}
+
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="6" started="6" failures="0" errors="1" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" time="57.43">
+    <testsuite name="Google Search Box" time="57.43">
+      <testcase name="Display Auto Suggestion for IBM" classname="Google Search Box" time="13.067">
+        <error>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-U21G5LB7', ip: '192.168.29.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3dfd1750f394a62c256931aeeb1aadb3, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\amitd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57962/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3dfd1750f394a62c256931aeeb1aadb3&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:443)&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:28)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Display suggestions for WIPRO" classname="Google Search Box" time="9.394"/>
+      <testcase name="Display suggestions for Infosys" classname="Google Search Box" time="9.337"/>
+      <testcase name="Display suggestions for Congizant" classname="Google Search Box" time="9.263"/>
+      <testcase name="Display suggestions for TCS" classname="Google Search Box" time="5.443"/>
+      <testcase name="Display suggestions for Accenture" classname="Google Search Box" time="10.92"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="3" started="3" failures="0" errors="1" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" time="22.281">
+    <testsuite name="Google Search Box #1" time="12.392">
+      <testcase name="Display Auto Suggestion for Synechron" classname="Google Search Box #1" time="12.392"/>
+    </testsuite>
+    <testsuite name="Register multiple users #1" time="4.041">
+      <testcase name="user registration in Formy application" classname="Register multiple users #1" time="4.041">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user enter all details and validate success msg in a List' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("user enter all details and validate success msg in a List")
+public void user_enter_all_details_and_validate_success_msg_in_a_list(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
+    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Google Search Box #2" time="5.844">
+      <testcase name="Display suggestions for Infosys" classname="Google Search Box #2" time="5.844"/>
+    </testsuite>
+  </testsuite>
+</testrun>

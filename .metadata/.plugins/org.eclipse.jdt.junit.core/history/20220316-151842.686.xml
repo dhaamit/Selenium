@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" time="0.776">
+    <testsuite name="MouseMovement Demo" time="0.776">
+      <testcase name="User print all actions under main section" classname="MouseMovement Demo" time="0.776">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user is on flipkart page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on flipkart page")
+public void user_is_on_flipkart_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user perform mouse movement on menu and print the results")
+public void user_perform_mouse_movement_on_menu_and_print_the_results(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
+    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

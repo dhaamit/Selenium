@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="143" started-at="2020-12-16T15:23:14 IST" finished-at="2020-12-16T15:23:14 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="143" started-at="2020-12-16T15:23:14 IST" finished-at="2020-12-16T15:23:14 IST">
+      <class name="amitdtestproject.RESTAPITest">
+        <test-method status="PASS" signature="addTwitter()[pri:0, instance:amitdtestproject.RESTAPITest@49b0b76]" name="addTwitter" duration-ms="1" started-at="2020-12-16T15:23:14 IST" finished-at="2020-12-16T15:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTwitter -->
+        <test-method status="PASS" signature="deleteFB()[pri:0, instance:amitdtestproject.RESTAPITest@49b0b76]" name="deleteFB" duration-ms="1" started-at="2020-12-16T15:23:14 IST" finished-at="2020-12-16T15:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFB -->
+      </class> <!-- amitdtestproject.RESTAPITest -->
+      <class name="amitdtestproject.AppiumTest">
+        <test-method status="PASS" signature="iosApp()[pri:0, instance:amitdtestproject.AppiumTest@769f71a9]" name="iosApp" duration-ms="1" started-at="2020-12-16T15:23:14 IST" finished-at="2020-12-16T15:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosApp -->
+        <test-method status="PASS" signature="nativeAppAndroid()[pri:0, instance:amitdtestproject.AppiumTest@769f71a9]" name="nativeAppAndroid" duration-ms="1" started-at="2020-12-16T15:23:14 IST" finished-at="2020-12-16T15:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nativeAppAndroid -->
+      </class> <!-- amitdtestproject.AppiumTest -->
+      <class name="amitdtestproject.SeleniumTest">
+        <test-method status="PASS" signature="browserAutomation()[pri:0, instance:amitdtestproject.SeleniumTest@35047d03]" name="browserAutomation" duration-ms="78" started-at="2020-12-16T15:23:14 IST" finished-at="2020-12-16T15:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+        <test-method status="PASS" signature="elements()[pri:0, instance:amitdtestproject.SeleniumTest@35047d03]" name="elements" duration-ms="3" started-at="2020-12-16T15:23:14 IST" finished-at="2020-12-16T15:23:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elements -->
+      </class> <!-- amitdtestproject.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

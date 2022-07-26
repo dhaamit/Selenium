@@ -1,0 +1,7 @@
+23:26:17.525 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 2
+23:26:19.213 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 2
+23:26:20.292 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 1
+23:26:21.635 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 1
+23:26:23.228 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 1
+23:26:25.604 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 2
+23:26:27.014 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 2

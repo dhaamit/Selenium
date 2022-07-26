@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" time="27.647">
+    <testsuite name="Google Search Box" time="27.647">
+      <testcase name="Display Auto Suggestion for IBM" classname="Google Search Box" time="15.309"/>
+      <testcase name="Display suggestions for WIPRO" classname="Google Search Box" time="6.47"/>
+      <testcase name="Display suggestions for Infosys" classname="Google Search Box" time="5.868"/>
+    </testsuite>
+  </testsuite>
+</testrun>

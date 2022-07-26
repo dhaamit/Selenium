@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" time="17.743">
+    <testsuite name="Google Search Box #1" time="11.705">
+      <testcase name="Display Auto Suggestion for Synechron" classname="Google Search Box #1" time="11.705"/>
+    </testsuite>
+    <testsuite name="Google Search Box #2" time="6.038">
+      <testcase name="Display suggestions for Infosys" classname="Google Search Box #2" time="6.038"/>
+    </testsuite>
+  </testsuite>
+</testrun>

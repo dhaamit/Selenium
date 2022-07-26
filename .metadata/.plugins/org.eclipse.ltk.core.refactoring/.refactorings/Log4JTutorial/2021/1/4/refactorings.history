@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Log4J.java&apos; to &apos;AceRecordCardGame/src/main/java/com.logger&apos;&#x0D;&#x0A;- Original project: &apos;Log4JTutorial&apos;&#x0D;&#x0A;- Destination element: &apos;AceRecordCardGame/src/main/java/com.logger&apos;&#x0D;&#x0A;- Original element: &apos;Log4J.java&apos;" description="Copy compilation unit" destination="=AceRecordCardGame/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.logger" element1="/src&lt;{Log4J.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1611150855673" units="1" version="1.0"/>
+</session>

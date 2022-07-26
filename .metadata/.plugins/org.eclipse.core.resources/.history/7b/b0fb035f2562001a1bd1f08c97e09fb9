@@ -1,0 +1,29 @@
+//ENTER DATE AS 20 March 2022
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class HandleCalendarDateGeneric {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		String date = "20";
+		String month = "March 2022";
+		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver ();
+		driver.get("https://www.path2usa.com/travel-companions/");
+		driver.findElement(By.xpath("//input[@name='travel_date']")).click();
+		Thread.sleep(2000);
+		while (!(driver.findElement(By.xpath("//input[@id='travel_date']")).getText()==month))
+		{
+			driver.findElement(By.cssSelector("th[class='next']")).click();
+		}
+		
+		List<WebElement> calDays= driver.findElements(By.cssSelector("[class='day']"));		
+		
+	}
+
+}

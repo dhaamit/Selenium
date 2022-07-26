@@ -1,0 +1,19 @@
+{
+	"LoginCredential": [
+			{
+				"cname":"Name1",
+				"cpwd":"pwd1"
+			},
+
+			{
+				"cname":"Name2",
+				"cpwd":"pwd2"
+			},
+			{
+				"cname":"Name3",
+				"cpwd":"pwd3"
+			}
+		        ]
+		
+
+}

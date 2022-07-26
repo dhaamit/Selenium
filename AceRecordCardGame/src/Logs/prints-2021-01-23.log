@@ -1,0 +1,6 @@
+23:26:49.707 [JavaFX Application Thread] INFO  com.logger.Log4J - Choice for this Round by Amit is : Innings
+23:26:49.712 [JavaFX Application Thread] INFO  com.logger.Log4J - Score for this round :: Amit=28 :: Player2=0
+23:26:49.712 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 1
+23:26:50.915 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 1
+23:26:51.668 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 2
+23:26:53.574 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 2

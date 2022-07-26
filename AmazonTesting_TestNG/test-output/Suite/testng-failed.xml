@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="Amazon.SearchBookNG">
+        <methods>
+          <include name="searchBook"/>
+          <include name="validateBookSeller"/>
+        </methods>
+      </class> <!-- Amazon.SearchBookNG -->
+      <class name="Amazon.LaunchAmazonNG">
+        <methods>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Amazon.LaunchAmazonNG -->
+      <class name="Amazon.AddToCartNG">
+        <methods>
+          <include name="addToCart"/>
+        </methods>
+      </class> <!-- Amazon.AddToCartNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

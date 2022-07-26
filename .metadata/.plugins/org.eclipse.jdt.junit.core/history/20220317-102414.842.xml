@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" time="44.238">
+    <testsuite name="Google Search Box" time="44.238">
+      <testcase name="Display Auto Suggestion for IBM" classname="Google Search Box" time="12.328"/>
+      <testcase name="Display suggestions for WIPRO" classname="Google Search Box" time="6.85"/>
+      <testcase name="Display suggestions for Infosys" classname="Google Search Box" time="5.66"/>
+      <testcase name="Display suggestions for Congizant" classname="Google Search Box" time="6.211"/>
+      <testcase name="Display suggestions for TCS" classname="Google Search Box" time="6.468"/>
+      <testcase name="Display suggestions for Accenture" classname="Google Search Box" time="6.721"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,4 @@
+10:17:41.382 [main] DEBUG Log4J - This is debug logging
+10:17:41.385 [main] INFO  Log4J - Object is present
+10:17:41.385 [main] ERROR Log4J - Object is not present
+10:17:41.385 [main] FATAL Log4J - This is fatal

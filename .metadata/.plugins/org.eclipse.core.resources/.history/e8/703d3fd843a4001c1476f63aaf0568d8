@@ -1,0 +1,62 @@
+package stepdefinition;
+
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class AutoSuggestions {
+	WebDriver driver = null;
+	@Given("User is on google page")
+	public void user_is_on_google_page() {
+		System.out.println("User is Launching Google Page ");
+		//System.setProperty("webdriver.chrome.driver","C:\\Softwares\\Drivers\\chromedriver.exe");  
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.get("https://www.google.com/");
+	}
+	@When("User enters Synechron in search box")
+	public void user_enters_synechron_in_search_box() {
+	    System.out.println("User is entering ket Synechron");
+	    driver.findElement(By.name("q")).sendKeys("Synechron");
+	 
+	}
+	@Then("User should get suggestions based on recent search criteria")
+	public void user_should_get_suggestions_based_on_recent_search_criteria() {
+		List<WebElement> autoSuggestions = driver.findElements(By.xpath("//ul[@role='listbox']/li"));
+		System.out.println("Total Number od Suggestions " + autoSuggestions.size());
+	}
+	@Then("user will print the suggestions")
+	public void user_will_print_the_suggestions() {
+		List<WebElement> autoSuggestions = driver.findElements(By.xpath("//ul[@role='listbox']/li"));
+		System.out.println("Total Number od Suggestions " + autoSuggestions.size());
+		for (WebElement suggestion : autoSuggestions)
+		{
+			System.out.println(suggestion.getText());
+		}
+	}
+
+	@When("click on search button")
+	public void click_on_search_button() {
+		driver.findElement(By.name("btnK")).click();
+	}
+	
+	@When("user will navigate first page search results")
+	public void user_will_navigate_first_page_search_results() {
+		List<WebElement> searchResults = driver.findElements(By.xpath("//h3"));
+		for (WebElement result : searchResults)
+		{
+			System.out.println(result.getText());
+		}
+	}
+
+}

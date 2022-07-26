@@ -1,0 +1,31 @@
+package stepdefinitions.page;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class GooglePage {
+// Every page object contains variable, methods and constructors
+	
+	@FindBy(name = "q")
+	WebElement searchBox;
+	
+	@FindBy(name = "btnK")
+	WebElement searchButton;
+	
+	public void enterSearchText (String text)
+	{
+		searchBox.sendKeys(text);
+	}
+	
+	public void clickOnSearch()
+	{
+		searchButton.click();
+	}
+	
+	public GooglePage(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+	}
+	
+}

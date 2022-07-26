@@ -1,0 +1,25 @@
+CoreJava
+------------------
+1.Class and Object
+2. how to interchange reference of an object
+3. variable,Datatypes, and Operators
+4. Flowstatements
+5. TypeCasting
+6. Arrays.
+7. userdefined functions
+8. static,return
+9.polymorphism
+10.constructor
+11.Inheritence
+12.interface
+13.final,finally,throw,throws
+14. Collections arrays - List,Set,Queue
+15.FileSystemObject -FileInputSteam,BufferReader,FileReader,FileWriter
+16.createFile
+17.WorkWithExcel,JSON, .CSV
+15.PropertiesFile
+19. DB 
+20. GitHub
+21.Jenkins
+22. MultiThreading
+23. Reflection APIs

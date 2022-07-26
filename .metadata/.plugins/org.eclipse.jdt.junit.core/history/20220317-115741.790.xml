@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="30" started="16" failures="0" errors="17" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" incomplete="true">
+    <testsuite name="User Registration" time="7.361">
+      <testcase name="Validate Formy Form with valid inputs" classname="User Registration" time="7.361">
+        <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-U21G5LB7', ip: '192.168.29.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [734558ea1d6c4e51098a066045580e69, findElement {using=xpath, value=//div[@class='alert alert-success']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\amitd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58221/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 734558ea1d6c4e51098a066045580e69&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)&#13;
+	at stepdefinition.FormySteps.user_validate_success_message(FormySteps.java:55)&#13;
+	at ✽.user validate success message(file:///C:/Users/amitd/Selenium-Workspace/cucumberTraining/src/test/java/feature/UserRegistration.feature:9)&#13;
+&#13;
+java.lang.NullPointerException&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:28)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="MouseMovemet demo" time="34.568">
+      <testcase name="User print all items under main section" classname="MouseMovemet demo" time="34.568">
+        <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Beauty,Toys &amp; more']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-U21G5LB7', ip: '192.168.29.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30ee41beaae525346672ff764d50d212, findElement {using=xpath, value=//div[text()='Beauty,Toys &amp; more']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\amitd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58236/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30ee41beaae525346672ff764d50d212&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)&#13;
+	at stepdefinition.FlipkartSteps.user_perfom_mouse_movement_on_menu_and_print_the_result(FlipkartSteps.java:33)&#13;
+	at ✽.user perfom mouse movement on menu and print the result(file:///C:/Users/amitd/Selenium-Workspace/cucumberTraining/src/test/java/feature/actionsInBDD.feature:5)&#13;
+&#13;
+java.lang.NullPointerException&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:28)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Google Search Box #1" time="9.931">
+      <testcase name="Display Auto Suggestion for Synechron" classname="Google Search Box #1" time="7.375">
+        <error>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-U21G5LB7', ip: '192.168.29.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98ef212a47dd86d1c2955810884217b0, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\amitd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58271/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 98ef212a47dd86d1c2955810884217b0&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:443)&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:28)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Display suggestions for Synechron Search" classname="Google Search Box #1" time="2.556">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User enters Synechron in search box' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("User enters Synechron in search box")
+public void user_enters_synechron_in_search_box() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Register multiple users #1" time="3.855">
+      <testcase name="user registration in Formy application" classname="Register multiple users #1" time="3.855">
+        <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-U21G5LB7', ip: '192.168.29.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c04b70969fe3d46878dce2ec4189a705, findElement {using=xpath, value=//div[@class='alert alert-success']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\amitd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58323/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c04b70969fe3d46878dce2ec4189a705&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)&#13;
+	at stepdefinition.FormySteps.user_enter_all_details_and_validate_success_msg_in_a_list(FormySteps.java:102)&#13;
+	at ✽.user enter all details and validate success msg in a List(file:///C:/Users/amitd/Selenium-Workspace/cucumberTraining/src/test/java/feature/dataTableList.feature:7)&#13;
+&#13;
+java.lang.NullPointerException&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:28)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Multiple Search in Google" time="28.39">
+      <testcase name="Google Multiple Search #1" classname="Multiple Search in Google" time="7.263">
+        <error>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-U21G5LB7', ip: '192.168.29.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3cbd1ef2cd4f2b179d2d06676bf210e, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\amitd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58340}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58340/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d3cbd1ef2cd4f2b179d2d06676bf210e&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:443)&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:28)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Google Multiple Search #2" classname="Multiple Search in Google" time="8.101">
+        <error>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-U21G5LB7', ip: '192.168.29.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2edb1a4b6d66325e14c18302b42789b7, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\amitd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58375/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2edb1a4b6d66325e14c18302b42789b7&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:443)&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:28)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Google Multiple Search #3" classname="Multiple Search in Google" time="4.64">
+        <error>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-U21G5LB7', ip: '192.168.29.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07b0fbeac43f8caa81079558a5075413, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\amitd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58407/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 07b0fbeac43f8caa81079558a5075413&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:443)&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:28)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Google Multiple Search #4" classname="Multiple Search in Google" time="8.376">
+        <error>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-U21G5LB7', ip: '192.168.29.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e073e433c673e4808279d408990ece6, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\amitd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58432}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58432/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e073e433c673e4808279d408990ece6&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:443)&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:28)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Verify Login" time="0.028">
+      <testcase name="Validate login success on Valid Credentials" classname="Verify Login" time="0.018">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at stepdefinition.LoginSteps.user_is_on_login_page(LoginSteps.java:12)&#13;
+	at ✽.User is on login page(file:///C:/Users/amitd/Selenium-Workspace/cucumberTraining/src/test/java/feature/helloWorld.feature:5)&#13;
+&#13;
+java.lang.NullPointerException&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:28)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate login failure on In-valid Credentials" classname="Verify Login" time="0.01">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at stepdefinition.LoginSteps.user_is_on_login_page(LoginSteps.java:12)&#13;
+	at ✽.User is on login page(file:///C:/Users/amitd/Selenium-Workspace/cucumberTraining/src/test/java/feature/helloWorld.feature:11)&#13;
+&#13;
+java.lang.NullPointerException&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:28)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Google Search Box #2" incomplete="true">
+      <testcase name="Display Auto Suggestion for IBM" classname="Google Search Box #2" time="8.098">
+        <error>org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-U21G5LB7', ip: '192.168.29.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d7923f955300d76b38b1dc503cb64872, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\amitd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58465}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58465/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7923f955300d76b38b1dc503cb64872&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:443)&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:28)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Display suggestions for WIPRO" classname="Google Search Box #2" time="11.069"/>
+      <testcase name="Display suggestions for Infosys" classname="Google Search Box #2" time="10.637"/>
+      <testcase name="Display suggestions for Congizant" classname="Google Search Box #2" time="9.683"/>
+      <testcase name="Display suggestions for TCS" classname="Google Search Box #2" incomplete="true"/>
+      <testcase name="Display suggestions for Accenture" classname="Google Search Box #2" incomplete="true"/>
+    </testsuite>
+    <testsuite name="Google Search Box #3" incomplete="true">
+      <testcase name="Display Auto Suggestion for IBM" classname="Google Search Box #3" incomplete="true"/>
+      <testcase name="Display suggestions for WIPRO" classname="Google Search Box #3" incomplete="true"/>
+      <testcase name="Display suggestions for Infosys" classname="Google Search Box #3" incomplete="true"/>
+    </testsuite>
+    <testsuite name="Google Search Box #4" incomplete="true">
+      <testcase name="Display Auto Suggestion for IBM" classname="Google Search Box #4" incomplete="true"/>
+      <testcase name="Display suggestions for WIPRO" classname="Google Search Box #4" incomplete="true"/>
+      <testcase name="Display suggestions for Infosys" classname="Google Search Box #4" incomplete="true"/>
+      <testcase name="Display suggestions for Congizant" classname="Google Search Box #4" incomplete="true"/>
+      <testcase name="Display suggestions for TCS" classname="Google Search Box #4" incomplete="true"/>
+      <testcase name="Display suggestions for Accenture" classname="Google Search Box #4" incomplete="true"/>
+    </testsuite>
+    <testsuite name="Multiple search in google" incomplete="true">
+      <testcase name="Google Multiple Search #1" classname="Multiple search in google" incomplete="true"/>
+      <testcase name="Google Multiple Search #2" classname="Multiple search in google" incomplete="true"/>
+      <testcase name="Google Multiple Search #3" classname="Multiple search in google" incomplete="true"/>
+    </testsuite>
+    <testsuite name="Register multiple users #2" incomplete="true">
+      <testcase name="user registration in Formy application" classname="Register multiple users #2" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>

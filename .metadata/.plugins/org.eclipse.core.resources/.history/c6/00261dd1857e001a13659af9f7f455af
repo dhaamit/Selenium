@@ -1,0 +1,48 @@
+package Amazon;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+public class SearchBook {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String booksFeaturedNew, booksBestSeller;
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.amazon.com/");
+
+		WebDriverWait explicitWait = new WebDriverWait(driver, 15);
+		explicitWait.until(
+				ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Handmade home office décor']")));
+
+		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Book");
+		driver.findElement(By.xpath("//input[@class='nav-input']")).click();
+
+		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='banner']")));
+
+		Assert.assertTrue(driver.findElement(By.xpath("//img[@alt='Books at Amazon']")).isDisplayed());
+
+		booksFeaturedNew = driver.findElement(By.xpath("//*[text()='Featured New Release Books']")).getText();
+		System.out.println(booksFeaturedNew);
+
+		booksBestSeller = driver.findElement(By.xpath("//*[text()='Best sellers in Books']")).getText();
+		System.out.println(booksBestSeller);
+
+		if (booksFeaturedNew.contains("Featured New Release Books")
+				&& booksBestSeller.contains("Best sellers in Books")) {
+			System.out.println("Book seach success.");
+			Assert.assertTrue(true);
+		} else {
+			System.out.println("Book seach failed.");
+			Assert.assertTrue(false);
+		}
+
+	}
+
+}

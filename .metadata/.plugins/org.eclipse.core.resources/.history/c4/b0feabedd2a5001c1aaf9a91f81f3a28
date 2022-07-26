@@ -1,0 +1,29 @@
+package stepdefinitions.test;
+
+public class GoogleSearchTest {
+
+	@Given("pom user is on google page")
+	public void pom_user_is_on_google_page() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("google app display autosuggestions")
+	public void google_app_display_autosuggestions() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("pom user print all the suggestions")
+	public void pom_user_print_all_the_suggestions() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+	@When("pom user close the browser")
+	public void pom_user_close_the_browser() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
+
+}

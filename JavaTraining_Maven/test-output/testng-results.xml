@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="85" started-at="2021-01-08T11:00:16 IST" finished-at="2021-01-08T11:00:16 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="85" started-at="2021-01-08T11:00:16 IST" finished-at="2021-01-08T11:00:16 IST">
+      <class name="com.testcases.Test2">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.testcases.Test2@578486a3]" name="testCase1" duration-ms="17" started-at="2021-01-08T11:00:16 IST" finished-at="2021-01-08T11:00:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.testcases.Test2@578486a3]" name="testCase2" duration-ms="1" started-at="2021-01-08T11:00:16 IST" finished-at="2021-01-08T11:00:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:com.testcases.Test2@578486a3]" name="testCase3" duration-ms="2" started-at="2021-01-08T11:00:16 IST" finished-at="2021-01-08T11:00:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+      </class> <!-- com.testcases.Test2 -->
+      <class name="com.testcases.Test1">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.testcases.Test1@551aa95a]" name="testCase1" duration-ms="1" started-at="2021-01-08T11:00:16 IST" finished-at="2021-01-08T11:00:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.testcases.Test1@551aa95a]" name="testCase2" duration-ms="2" started-at="2021-01-08T11:00:16 IST" finished-at="2021-01-08T11:00:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:com.testcases.Test1@551aa95a]" name="testCase3" duration-ms="3" started-at="2021-01-08T11:00:16 IST" finished-at="2021-01-08T11:00:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+      </class> <!-- com.testcases.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

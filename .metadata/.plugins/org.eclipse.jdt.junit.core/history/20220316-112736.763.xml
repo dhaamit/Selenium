@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="4" started="4" failures="0" errors="4" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" time="27.776">
+    <testsuite name="Multiple Search in Google" time="27.775">
+      <testcase name="Google Multiple Search #1" classname="Multiple Search in Google" time="10.719">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user should get suggestions based on search criteria' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("user should get suggestions based on search criteria")
+public void user_should_get_suggestions_based_on_search_criteria() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Google Multiple Search #2" classname="Multiple Search in Google" time="5.628">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user should get suggestions based on search criteria' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("user should get suggestions based on search criteria")
+public void user_should_get_suggestions_based_on_search_criteria() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Google Multiple Search #3" classname="Multiple Search in Google" time="5.263">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user should get suggestions based on search criteria' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("user should get suggestions based on search criteria")
+public void user_should_get_suggestions_based_on_search_criteria() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Google Multiple Search #4" classname="Multiple Search in Google" time="6.128">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user should get suggestions based on search criteria' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("user should get suggestions based on search criteria")
+public void user_should_get_suggestions_based_on_search_criteria() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

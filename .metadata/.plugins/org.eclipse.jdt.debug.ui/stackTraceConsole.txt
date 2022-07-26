@@ -1,0 +1,20 @@
+io.cucumber.junit.UndefinedStepException: The step 'user is on google page' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on google page")
+public void user_is_on_google_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter WIPRO in search box")
+public void user_enter_wipro_in_search_box() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user should get suggestions based on search criteria")
+public void user_should_get_suggestions_based_on_search_criteria() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

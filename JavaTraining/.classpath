@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Softwares/000_JavaTraining/SeleniumFiles_NSEit/ExcelJars/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/000_JavaTraining/SeleniumFiles_NSEit/ExcelJars/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/000_JavaTraining/SeleniumFiles_NSEit/ExcelJars/poi-ooxml-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/000_JavaTraining/SeleniumFiles_NSEit/ExcelJars/poi-ooxml-schemas-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/000_JavaTraining/SeleniumFiles_NSEit/ExcelJars/ShineXLS.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/000_JavaTraining/SeleniumFiles_NSEit/ExcelJars/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/000_JavaTraining/SeleniumFiles_NSEit/Other Jars/jars/opencsv-4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/000_JavaTraining/SeleniumFiles_NSEit/Other Jars/jars/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/000_JavaTraining/SeleniumFiles_NSEit/Other Jars/jars/commons-lang3-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/000_JavaTraining/SeleniumFiles_NSEit/Other Jars/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/000_JavaTraining/DBConnection_Jenkins/DBConnection/DataBaseConnection/mysql-connector-java-8.0.22.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="3" started="3" failures="0" errors="3" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" time="16.238">
+    <testsuite name="Multiple search in google" time="16.238">
+      <testcase name="Google Multiple Search #1" classname="Multiple search in google" time="9.011">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user enters IBM in search box' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user enters IBM in search box")
+public void user_enters_ibm_in_search_box() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click on search")
+public void click_on_search() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Google Multiple Search #2" classname="Multiple search in google" time="3.377">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user enters WIPRO in search box' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user enters WIPRO in search box")
+public void user_enters_wipro_in_search_box() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click on search")
+public void click_on_search() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Google Multiple Search #3" classname="Multiple search in google" time="3.841">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user enters Synechron in search box' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user enters Synechron in search box")
+public void user_enters_synechron_in_search_box() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click on search")
+public void click_on_search() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

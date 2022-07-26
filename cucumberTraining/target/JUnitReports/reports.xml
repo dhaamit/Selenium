@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="57.96">
+<testcase classname="Google Search Box" name="Display Auto Suggestion for IBM" time="13.726">
+<failure message="invalid session id&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'LAPTOP-U21G5LB7', ip: '192.168.29.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2f19dd4d9c909ae3ef2067a027aaf991, close {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\amitd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61003/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2f19dd4d9c909ae3ef2067a027aaf991" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given user is on google page................................................passed
+When user enters "IBM" in search box........................................passed
+Then user should get suggestions based on search criteria...................passed
+And user will print the suggestions.........................................passed
+
+StackTrace:
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-U21G5LB7', ip: '192.168.29.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f19dd4d9c909ae3ef2067a027aaf991, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\amitd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61003/devtoo..., se:cdpVersion: 99.0.4844.74, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f19dd4d9c909ae3ef2067a027aaf991
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:443)
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:30)
+]]></failure>
+</testcase>
+<testcase classname="Google Search Box" name="Display suggestions for WIPRO" time="6.644">
+<system-out><![CDATA[Given user is on google page................................................passed
+When user enters "WIPRO" in search box......................................passed
+And click on search button..................................................passed
+And user will navigate first page search results............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Search Box" name="Display suggestions for Infosys" time="10.796">
+<system-out><![CDATA[Given user is on google page................................................passed
+When user enters "Infosys" in search box....................................passed
+And click on search button..................................................passed
+And user will navigate first page search results............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Search Box" name="Display suggestions for Congizant" time="11.266">
+<system-out><![CDATA[Given user is on google page................................................passed
+When user enters "Cognizant" in search box..................................passed
+And click on search button..................................................passed
+And user will navigate first page search results............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Search Box" name="Display suggestions for TCS" time="7.064">
+<system-out><![CDATA[Given user is on google page................................................passed
+When user enters "TCS" in search box........................................passed
+And click on search button..................................................passed
+And user will navigate first page search results............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Search Box" name="Display suggestions for Accenture" time="7.933">
+<system-out><![CDATA[Given user is on google page................................................passed
+When user enters "Accenture" in search box..................................passed
+And click on search button..................................................passed
+And user will navigate first page search results............................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,19 @@
+Feature: Google Search Box
+
+Scenario: Display Auto Suggestion for IBM
+Given User is on google page
+When User enters "IBM" in search box
+Then User should get suggestions based on recent search criteria
+And user will print the suggestions
+
+Scenario: Display suggestions for WIPRO
+Given User is on google page
+When User enters "WIPRO" in search box
+And click on search button
+And user will navigate first page search results
+
+Scenario: Display suggestions for Infosys
+Given User is on google page
+When User enters "Infosys" in search box
+And click on search button
+And user will navigate first page search results

@@ -1,0 +1,46 @@
+package stepdefinition;
+
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class ExamplesDemo {
+	WebDriver driver = null;
+	@Given("User is on Google page")
+	public void user_is_on_google_page() {
+		System.out.println("User is Launching Google Page ");
+		//System.setProperty("webdriver.chrome.driver","C:\\Softwares\\Drivers\\chromedriver.exe");  
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.get("https://www.google.com/");
+	}
+	@When("User enters {String} in search box")
+	public void user_enters_in_search_box(String text) {
+	    System.out.println("User is entering key : " + text);
+	    driver.findElement(By.name("q")).sendKeys(text);
+	}
+	@When("click on search button")
+	public void click_on_search_button() {
+		List<WebElement> autoSuggestions = driver.findElements(By.xpath("//ul[@role='listbox']/li"));
+		System.out.println("Total Number of Suggestions " + autoSuggestions.size());
+	}
+	@When("user will navigate first page search results")
+	public void user_will_navigate_first_page_search_results() {
+		List<WebElement> autoSuggestions = driver.findElements(By.xpath("//ul[@role='listbox']/li"));
+		System.out.println("Total Number of Suggestions " + autoSuggestions.size());
+		for (WebElement suggestion : autoSuggestions)
+		{
+			System.out.println(suggestion.getText());
+		}
+	}
+
+}

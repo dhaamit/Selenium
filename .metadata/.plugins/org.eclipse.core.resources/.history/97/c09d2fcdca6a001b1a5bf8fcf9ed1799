@@ -1,0 +1,51 @@
+package com.ui.ThreadArt;
+
+import javafx.application.Application;
+import javafx.scene.Group;
+import javafx.scene.Node;
+import javafx.scene.Scene;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Line;
+import javafx.stage.Stage;
+
+public class ThreadArt extends Application 
+{
+
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		Color bkColor = Color.rgb(20, 20, 20, 1);
+		BorderPane border = new BorderPane();
+		Node gridPane = null;
+		try {
+			gridPane = addGridPane();
+			gridPane.autosize();
+		} catch (Throwable e1) {
+			e1.printStackTrace();
+		}
+		border.setCenter(gridPane);
+
+		Scene scene = new Scene(border, 800, 800, bkColor);
+		primaryStage.setTitle("Ace Record Cards");
+		primaryStage.setScene(scene);
+		primaryStage.show();
+	}
+
+	private Node addGridPane()  {
+		GridPane grid = new GridPane();
+		for (double i=0; i<255; i=i+10)
+		{
+			Line line = new Line(i,500,500,i);
+			line.setStroke(Color.rgb((int) (i),10, (int) i));
+			grid.add(line, 1, 1);	
+		}
+		return grid;
+	}
+	
+	public static void main(String[] args) throws Throwable {
+		launch(args);
+	}
+	
+	
+}

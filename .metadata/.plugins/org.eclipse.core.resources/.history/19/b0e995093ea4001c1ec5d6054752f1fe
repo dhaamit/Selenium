@@ -1,0 +1,13 @@
+Feature: Google Search Box
+
+Scenario: Display Auto Suggestion for Synechron
+Given User is on user page
+When User enters Synechron in search box
+Then User should get suggestions based on recent search criteria
+And user will print the suggestions
+
+Scenario: Display suggestions for Synechron Search
+Given user is on Google page
+When user enters Synechron in search box
+And click on search button
+And user will first page search results

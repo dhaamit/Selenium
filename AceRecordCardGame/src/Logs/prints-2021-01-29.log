@@ -1,0 +1,6 @@
+23:15:36.593 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 1
+23:15:38.784 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 1
+23:15:41.257 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 2
+23:15:46.631 [JavaFX Application Thread] INFO  com.logger.Log4J - Player2's Turn ....................
+23:15:46.631 [JavaFX Application Thread] INFO  com.logger.Log4J - Choice for this Round by Player2 is : Matches
+23:15:46.633 [JavaFX Application Thread] DEBUG com.logger.Log4J - Score for this round :: Amit=65.5 :: Player2=57.99999999999999

@@ -1,0 +1,14 @@
+Feature: Multiple search in google
+
+Scenario Outline: Google Multiple Search
+Given: User is on multiple page
+When user enters <company> in search box
+And click on search
+Then user will print all the hyperlinks
+And click on first link
+
+Examples:
+| company 		|
+|	IBM			|
+|	WIPRO		|
+|	Synechron	|

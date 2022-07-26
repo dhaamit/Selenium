@@ -1,0 +1,52 @@
+package stepdefinition;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class FormySteps {
+	
+	WebDriver driver = null;
+	@Given("User is on Registration page")
+	public void user_is_on_registration_page() {
+		System.out.println("User is Launching Registration Page ");
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.get("https://formy-project.herokuapp.com/form");
+	}
+
+	@When("user enter first Name")
+	public void user_enter_first_name() {
+		// Write code here that turns the phrase above into concrete actions
+		//throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user enter Last Name")
+	public void user_enter_last_name() {
+		// Write code here that turns the phrase above into concrete actions
+		//throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user enter job title")
+	public void user_enter_job_title() {
+		// Write code here that turns the phrase above into concrete actions
+		//throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user click on Submit")
+	public void user_click_on_submit() {
+		// Write code here that turns the phrase above into concrete actions
+		//throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("user validate success message")
+	public void user_validate_success_message() {
+		// Write code here that turns the phrase above into concrete actions
+		//throw new io.cucumber.java.PendingException();
+	}
+
+}

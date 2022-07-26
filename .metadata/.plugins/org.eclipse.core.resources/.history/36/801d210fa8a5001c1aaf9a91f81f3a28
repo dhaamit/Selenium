@@ -1,0 +1,162 @@
+package stepdefinition;
+
+import java.util.List;
+import java.util.Map;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class FormySteps {
+	
+	WebDriver driver = null;
+	@Given("User is on Registration page")
+	public void user_is_on_registration_page() {
+		System.out.println("User is Launching Registration Page ");
+		//System.setProperty("webdriver.chrome.driver","C:\\Softwares\\Drivers\\chromedriver.exe");  
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.get("https://formy-project.herokuapp.com/form");
+	}
+
+	@When("user enter first Name")
+	public void user_enter_first_name() {
+		System.out.println("User Entering First Name");
+		driver.findElement(By.id("first-name")).sendKeys("fName");
+	}
+
+	@When("user enter Last Name")
+	public void user_enter_last_name() {
+		System.out.println("User Entering Last Name");
+		driver.findElement(By.id("last-name")).sendKeys("lName");
+	}
+
+	@When("user enter job title")
+	public void user_enter_job_title() {
+		System.out.println("User Entering Manager");
+		driver.findElement(By.id("job-title")).sendKeys("manager");
+	}
+
+	@When("user click on Submit")
+	public void user_click_on_submit() {
+		System.out.println("User clicking Submit");
+		driver.findElement(By.xpath("//a[text()='Submit']")).click();		
+	}
+	
+
+	@Then("user validate success message")
+	public void user_validate_success_message() {
+		System.out.println("User validating success message");
+		String succMsg = driver.findElement(By.xpath("//div[@class='alert alert-success']")).getText();
+		System.out.println(succMsg);
+		driver.close();
+	}
+	
+	@Given("user launch formy application")
+	public void user_launch_formy_application() {
+		System.out.println("User is launching formy application");
+		//System.setProperty("webdriver.chrome.driver","C:\\Softwares\\Drivers\\chromedriver.exe");  
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.get("https://formy-project.herokuapp.com/form");
+	}
+	@When("user enter all details and validate success msg in a List")
+	public void user_enter_all_details_and_validate_success_msg_in_a_list(io.cucumber.datatable.DataTable dataTable) {
+			List<List<String>> data = dataTable.asLists();
+			
+			int totalElements = data.size();
+			String fn,ln,job, edu, s, yoe;
+			for (int i = 0; i < totalElements ; i++) 
+			{
+				fn = data.get(i).get(0);
+				ln = data.get(i).get(1);
+				job = data.get(i).get(2);
+				edu = data.get(i).get(3);
+				driver.findElement(By.id("first-name")).sendKeys(fn);
+				driver.findElement(By.id("last-name")).sendKeys(ln);
+				driver.findElement(By.id("job-title")).sendKeys(job);
+				
+				switch (edu) {
+				case "High School":
+					driver.findElement(By.id("radio-button-1")).click();
+					break;
+				case "College":
+					driver.findElement(By.id("radio-button-2")).click();
+					break;
+				case "Grad School":
+					driver.findElement(By.id("radio-button-3")).click();
+					break;
+
+				default:
+					System.out.println("Please check the input");
+					break;
+				}
+				
+				driver.findElement(By.xpath("//a[text()='Submit']")).click();
+				System.out.println("Success message ");
+				String successMsg = driver.findElement(By.xpath("//div[@class='alert alert-success']")).getText();
+				System.out.println(successMsg);
+				Thread.sleep(3000);
+				driver.get("http://formy-project.herokuapp.com/form");
+			}
+			
+	}
+
+	@When("user enter all details and validate success msg")
+	public void user_enter_all_details_and_validate_success_msg(io.cucumber.datatable.DataTable dataTable) throws InterruptedException {
+		List<Map <String, String>> data = dataTable.asMaps(); 
+		int totalElements = data.size();
+		String fn, ln, job, edu, s, yoe;
+		for (int i=0; i<totalElements; i++)
+		{
+			fn = data.get(i).get("firstname");
+			ln = data.get(i).get("lastname");
+			job = data.get(i).get("jobtitle");
+			edu = data.get(i).get("education");
+			s = data.get(i).get("sex");
+			yoe = data.get(i).get("yoe");
+			
+			driver.findElement(By.id("first-name")).sendKeys(fn);
+			driver.findElement(By.id("last-name")).sendKeys(ln);
+			driver.findElement(By.id("job-title")).sendKeys(job);
+		
+			switch(edu) {
+			case "High School":
+				driver.findElement(By.id("radio-button-1")).click();
+				break;
+				
+			case "College":
+				driver.findElement(By.id("radio-button-2")).click();
+				break;
+				
+			case "Grad School":
+				driver.findElement(By.id("radio-button-3")).click();
+				break;
+				
+			default:
+				System.out.println("Please check the input");
+			}
+			
+			
+			driver.findElement(By.xpath("//a[text()='Submit']")).click();
+			System.out.println("Success Message");
+			Thread.sleep(3000);
+			driver.get("https://formy-project.herokuapp.com/form");
+		
+		}
+		
+		
+		
+	}
+	@When("close the browser")
+	public void close_the_browser() {
+		driver.close();
+	}
+
+
+}

@@ -1,0 +1,26 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Assignment6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver ();
+		driver.get("https://qaclickacademy.com/");
+		
+		WebElement chkBox = driver.findElement(By.xpath("//input[@id='checkBoxOption2']"));
+		chkBox.click();
+		String chkLabel = driver.findElement(By.xpath("//input[@id='checkBoxOption2']/parent::label")).getText().trim();
+		System.out.println ("Label of CheckBox is ::" + chkLabel);
+		Select drpDown = new Select(driver.findElement(By.cssSelector("select#dropdown-class-example")));
+		drpDown.deselectByValue(chkLabel);
+		
+		
+		
+	}
+
+}

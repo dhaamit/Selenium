@@ -1,0 +1,9 @@
+@pom
+Feature: Google Search
+
+Scenario: Search feature of google using POM
+Given pom user is on google page
+When pom user enter company name
+And google app display autosuggestions
+And pom user print all the suggestions
+And pom user close the browser

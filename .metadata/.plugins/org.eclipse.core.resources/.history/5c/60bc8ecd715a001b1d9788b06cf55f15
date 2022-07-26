@@ -1,0 +1,121 @@
+package com.graphics;
+
+import java.awt.event.*;
+import javax.swing.*;
+
+public class Application {
+
+	public int noOfPlayers;
+	public String playerName;
+	public Application() {
+		JFrame f = new JFrame();
+
+//		JButton ng = new JButton(new ImageIcon (".\\Files\\ng2.jpg"));
+		JButton ng = new JButton("New Game");
+		ng.setBounds(440, 289, 120, 30);
+
+		/*
+		 * JTextField tf = new JTextField(); tf.setBounds (20,20,200,62);
+		 */
+		JLabel l1, l2;
+
+		l1 = new JLabel("Select 'New Game' Button to Start a New Game");
+		l1.setBounds(20, 20, 300, 30);
+		l2 = new JLabel("");
+		l2.setBounds(600, 20, 400, 30);
+		f.add(l1);
+		f.add(l2);
+
+		ng.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+
+				try {
+
+					l1.setText("");
+					l2.setText("Starting New Game..");
+					
+					ng.setVisible(false);
+					
+					ApplicationProgressBar ap = new ApplicationProgressBar(f);
+					ap.setVisible(true);
+					ap.iterate();
+					
+					boolean v = showNoOfPlayersScreen(l1, l2, f);
+					
+				} catch (Throwable e1) {
+					e1.printStackTrace();
+				}
+				/*
+				 * l2.setText("Starting New Game.."); ng.setVisible(false);
+				 * l1.setVisible(false);
+				 * 
+				 * nxt.setVisible(true); nxt.setEnabled(true); bk.setVisible(true);
+				 * bk.setEnabled(false);
+				 */ }
+		});
+
+		f.add(ng);
+		// f.add(tf);
+
+		f.setSize(1000, 618);
+		f.setLayout(null);
+		f.setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		new Application();
+	}
+
+	public boolean showNoOfPlayersScreen(JLabel l1, JLabel l2, JFrame f) throws Throwable {
+		// JButton bk = new JButton("Back");
+		JButton nxt = new JButton("Next");
+		// bk.setBounds(20,500,120,31);
+		nxt.setBounds(440, 289, 120, 30);
+
+		f.add(nxt);
+		// f.add(bk);
+		/*
+		 * nxt.setVisible(true); nxt.setEnabled(true);
+		 */
+
+		Thread.sleep(2000);
+
+		l1.setText("Choose number of Players :");
+		l2.setText("");
+
+//		bk.setVisible(true);
+		// bk.setEnabled(false);
+		String pl[] = { "2 Players", "3 Players", "4 Players" };
+		JComboBox cb = new JComboBox(pl);
+		cb.setBounds(290, 20, 120, 30);
+		f.add(cb);
+		
+		JLabel l3 = new JLabel();
+		l3.setBounds (20, 60, 300, 30);
+		l3.setText("Enter Player Name : ");
+		
+		JTextField jt = new JTextField();
+		jt.setBounds(290, 60, 120, 30);
+		
+		f.add(l3);
+		f.add(jt);
+		
+		nxt.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String data = "" + cb.getItemAt(cb.getSelectedIndex());
+
+				if (data.equalsIgnoreCase("2 Players")) {
+					noOfPlayers = 2;
+				} else if (data.equalsIgnoreCase("3 Players")) {
+					noOfPlayers = 3;
+				} else {
+					noOfPlayers = 4;
+				}
+				playerName = jt.getText();
+		
+				l2.setText("Total Players : " + noOfPlayers + "     "+playerName+" : 0");
+			}
+		});
+		return true;
+	}
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" time="20.706">
+    <testsuite name="Register multiple users" time="20.706">
+      <testcase name="user registration in Formy application" classname="Register multiple users" time="20.706"/>
+    </testsuite>
+  </testsuite>
+</testrun>

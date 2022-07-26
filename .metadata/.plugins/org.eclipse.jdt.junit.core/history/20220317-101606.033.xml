@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="3" started="3" failures="0" errors="3" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" time="0.827">
+    <testsuite name="Google Search Box" time="0.827">
+      <testcase name="Display Auto Suggestion for IBM" classname="Google Search Box" time="0.759">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User is on google page' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on google page")
+public void user_is_on_google_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters {string} in search box")
+public void user_enters_in_search_box(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User should get suggestions based on recent search criteria")
+public void user_should_get_suggestions_based_on_recent_search_criteria() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Display suggestions for WIPRO" classname="Google Search Box" time="0.027">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User is on google page' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on google page")
+public void user_is_on_google_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enters {string} in search box")
+public void user_enters_in_search_box(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Display suggestions for Infosys" classname="Google Search Box" time="0.028">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User is on google page' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User is on google page")
+public void user_is_on_google_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

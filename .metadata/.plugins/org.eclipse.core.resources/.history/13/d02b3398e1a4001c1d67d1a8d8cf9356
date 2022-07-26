@@ -1,0 +1,31 @@
+package stepdefinition;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import io.cucumber.java.en.Then;
+
+public class ExamplesDemo {
+	WebDriver driver = null;
+	
+
+	@Then("user will print all the hyperlinks")
+	public void user_will_print_all_the_hyperlinks() {
+		List<WebElement> searchResults = driver.findElements(By.xpath("//h3"));
+		for (WebElement result : searchResults)
+		{
+			System.out.println(result.getText());
+		}
+	}
+	@Then("click on first link")
+	public void click_on_first_link() {
+	    // Write code here that turns the phrase above into concrete actions
+	   // throw new io.cucumber.java.PendingException();
+	}
+
+
+
+}

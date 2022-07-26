@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="1" started="1" failures="0" errors="2" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" time="0.522">
+    <testsuite name="Google Search" time="0.522">
+      <testcase name="Search feature of google using POM" classname="Google Search" time="0.522">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'pom user is on google page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("pom user is on google page")
+public void pom_user_is_on_google_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("pom user enter company name")
+public void pom_user_enter_company_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("google app display autosuggestions")
+public void google_app_display_autosuggestions() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("pom user pirnt all the suggestion")
+public void pom_user_pirnt_all_the_suggestion() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("pom use close the browser")
+public void pom_use_close_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+java.lang.NullPointerException&#13;
+	at stepdefinition.AutoSuggestions.afterScenario(AutoSuggestions.java:30)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

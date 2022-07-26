@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value=""/>
+		<list key="findhistory">
+			<item value="primaryStage"/>
+			<item value="fade.play"/>
+			<item value="okButton"/>
+			<item value="choiceLabel"/>
+			<item value="MAXINNINGS"/>
+			<item value="selectedCard1"/>
+			<item value="cross"/>
+			<item value="playRound"/>
+			<item value="play"/>
+			<item value="crossed"/>
+			<item value="selectedCard"/>
+			<item value="records"/>
+			<item value="compareCardsAndGetScore"/>
+			<item value="choiceLabel3"/>
+			<item value="FiveWickets"/>
+		</list>
+		<list key="replacehistory">
+			<item value="MAXHS"/>
+			<item value="selectedCard2"/>
+			<item value="choiceComboBox"/>
+			<item value="aceColor1"/>
+			<item value="aceColor2"/>
+			<item value="aceColor3"/>
+			<item value="aceColor4"/>
+			<item value=""/>
+			<item value="else if (choice.equalsIgnoreCase(&quot;"/>
+			<item value="else if (choice.equalsIgnoreCase("/>
+			<item value="gamePlayers"/>
+			<item value="y+28"/>
+			<item value="y+1"/>
+			<item value="y+5"/>
+			<item value="x+1"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="900"/>
+		<item key="DIALOG_Y_ORIGIN" value="306"/>
+		<item key="DIALOG_WIDTH" value="284"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="452"/>
+		<item key="DIALOG_Y_ORIGIN" value="247"/>
+	</section>
+</section>

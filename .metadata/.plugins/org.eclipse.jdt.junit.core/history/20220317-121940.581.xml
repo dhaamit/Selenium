@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass" project="cucumberTraining" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="testRunner.TestRunnerClass" time="20.002">
+    <testsuite name="Google Search Box #1" time="10.186">
+      <testcase name="Display suggestions for Synechron Search" classname="Google Search Box #1" time="10.186">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User enters Synechron in search box' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("User enters Synechron in search box")
+public void user_enters_synechron_in_search_box() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Google Search Box #2" time="9.806">
+      <testcase name="Display suggestions for TCS" classname="Google Search Box #2" time="9.806"/>
+    </testsuite>
+  </testsuite>
+</testrun>

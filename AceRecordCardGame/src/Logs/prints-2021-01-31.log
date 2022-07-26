@@ -1,0 +1,6 @@
+16:02:28.876 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 2
+16:02:34.937 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 2
+16:02:39.284 [JavaFX Application Thread] INFO  com.logger.Log4J - Whose Turn? : 1
+16:02:47.997 [JavaFX Application Thread] INFO  com.logger.Log4J - Your Turn ....................
+16:02:48.595 [JavaFX Application Thread] INFO  com.logger.Log4J - Choice for this Round by Amit is : Five Wickets
+16:02:48.595 [JavaFX Application Thread] DEBUG com.logger.Log4J - Score for this round :: Amit=71.42857142857143 :: Player2=0.0
